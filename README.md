@@ -10,57 +10,57 @@ The app allows users to add, update, and remove tasks with smooth UI updates pow
 
 ## Features
 
-• Add new tasks
-• Mark tasks as completed
-• Delete tasks from the list
-• Real-time UI updates using BLoC
-• Event-driven state management
-• Automatic state persistence using Hydrated BLoC
-• Tasks remain saved after app restart
-• Clean and responsive user interface
-• Organized and scalable project structure
-• Smooth state transitions
+• Add new tasks 
+• Mark tasks as completed  
+• Delete tasks from the list 
+• Real-time UI updates using BLoC 
+• Event-driven state management  
+• Automatic state persistence using Hydrated BLoC 
+• Tasks remain saved after app restart 
+• Clean and responsive user interface 
+• Organized and scalable project structure 
+• Smooth state transitions 
 • Lightweight and fast performance
 
 
 ## Technologies Used
 
-• Flutter — Cross-platform mobile development framework
-• Dart — Main programming language
-• BLoC (flutter_bloc) — Event-driven state management
-• Hydrated BLoC — Local state persistence
-• Equatable — Efficient state comparison
+• Flutter — Cross-platform mobile development framework 
+• Dart — Main programming language 
+• BLoC (flutter_bloc) — Event-driven state management 
+• Hydrated BLoC — Local state persistence 
+• Equatable — Efficient state comparison 
 • Material Design — UI components and layout
 
 
 ## Architecture
 
 The app follows a layered architecture to keep the code maintainable and scalable:
-
+ 
 Presentation Layer
-
-• Screens
-• Widgets
-• UI rendering
+ 
+• Screens 
+• Widgets 
+• UI rendering 
 • User interaction handling using BlocBuilder and BlocListener
-
+ 
 Business Logic Layer
-
-• BLoC for state management
-• Hydrated BLoC for automatic state restoration
-• Separates logic into:
-• Events (user actions)
-• States (UI representation)
+ 
+• BLoC for state management 
+• Hydrated BLoC for automatic state restoration 
+• Separates logic into: 
+• Events (user actions) 
+• States (UI representation) 
 • Bloc (business logic)
-
-Handles:
-• Adding tasks
-• Removing tasks
-• Updating task status
+ 
+Handles: 
+• Adding tasks 
+• Removing tasks 
+• Updating task status 
 • Persisting tasks automatically between app sessions
 
 Data Layer
-
+ 
 • Task model with JSON serialization for persistence
 
 
@@ -71,25 +71,26 @@ Data Layer
 HTTPS
 
 https://github.com/heshamabdelhamead/ToDosApp-usingFlutterWithHydratedBloc.git
+ 
+SSH 
 
-SSH
 git@github.com:heshamabdelhamead/ToDosApp-usingFlutterWithHydratedBloc.git
 
-
+ 
 2. Navigate to the project folder
-
+ 
 cd flutter_todo_hydrated_bloc
-
+ 
 3. Install dependencies
-
-flutter pub get
+ 
+ flutter pub get
 
 
 ## Requirements
-
-• Flutter 3.x or later
-• Dart SDK
-• Android Studio or VS Code with Flutter plugin
+ 
+• Flutter 3.x or later 
+• Dart SDK 
+• Android Studio or VS Code with Flutter plugin 
 • iOS Simulator or Android Emulator
 
 
