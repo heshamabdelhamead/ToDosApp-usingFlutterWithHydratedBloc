@@ -8,8 +8,6 @@ In this version, Hydrated BLoC was added to persist application data locally, al
 
 The app allows users to add, update, and remove tasks with smooth UI updates powered by reactive state management using the BLoC pattern.
 
-⸻
-
 ## Features
 
 • Add new tasks
@@ -24,7 +22,6 @@ The app allows users to add, update, and remove tasks with smooth UI updates pow
 • Smooth state transitions
 • Lightweight and fast performance
 
-⸻
 
 ## Technologies Used
 
@@ -35,7 +32,6 @@ The app allows users to add, update, and remove tasks with smooth UI updates pow
 • Equatable — Efficient state comparison
 • Material Design — UI components and layout
 
-⸻
 
 ## Architecture
 
@@ -67,7 +63,6 @@ Data Layer
 
 • Task model with JSON serialization for persistence
 
-⸻
 
 ## Installation
 
@@ -89,7 +84,6 @@ cd flutter_todo_hydrated_bloc
 
 flutter pub get
 
-⸻
 
 ## Requirements
 
@@ -98,9 +92,8 @@ flutter pub get
 • Android Studio or VS Code with Flutter plugin
 • iOS Simulator or Android Emulator
 
-⸻
 
-Author
+# Author
 
 Hesham Abdelhamid
 Mobile Developer (iOS & Flutter)
